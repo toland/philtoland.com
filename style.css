@@ -123,6 +123,11 @@ blockquote {
 	margin-top: 30px;
 }
 
+span.tiny {
+  text-align: center;
+	font-size: x-small;
+}
+
 .buttons p {
 	padding-top: 10px;
 }
