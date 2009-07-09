@@ -20,9 +20,9 @@ a:link, a:visited {
 	color: #265e15;	
 }
 
-a:hover, a:active {
-	border-bottom: #963 1px solid;
-}
+//a:hover, a:active {
+//	border-bottom: #963 1px solid;
+//}
 
 dl {
   padding-left: 10px;
@@ -41,6 +41,8 @@ dd {
 
 blockquote {
 	text-indent: 10px;
+	margin-bottom: 10px;
+	font-style: italic;
 }
 
 #content {
@@ -137,6 +139,14 @@ span.tiny {
   color: #265e15;
   font-family: Georgia;
   font-size: 16px;
+  margin-bottom: 10px;
+  margin-top: 10px;
+}
+
+.middle h3 {
+  color: #265e15;
+  font-family: Georgia;
+  font-size: 14px;
   margin-bottom: 10px;
   margin-top: 10px;
 }
