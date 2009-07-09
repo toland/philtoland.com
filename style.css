@@ -72,6 +72,10 @@ blockquote {
   text-decoration: none;
 }
 
+.extlinks a:link, .extlinks a:visited {
+	color: #FFF;	
+}
+
 .extlinks a:hover, .extlinks a:active {
 	border-bottom: none;
 }
@@ -94,7 +98,7 @@ blockquote {
 
 .middle {
 	float: right;
-	width: 75%;
+	width: 74%;
 	margin: 10px 10px;
 	padding: 1% 1%;
 	text-align: justify;
@@ -106,7 +110,7 @@ blockquote {
 
 .sidebar {
 	float: left;
-	width: 15%;
+	width: 14%;
 	margin: 0 10px;
 	padding: 1% 1%;
 }
