@@ -55,6 +55,7 @@ blockquote {
 
 .extlinks {
   padding: 10px;
+  background-color: black;
   background: -webkit-gradient(linear, left top, left bottom, from(#777), to(#000));
   -webkit-border-top-left-radius: 5px;
   -webkit-border-top-right-radius: 5px;
