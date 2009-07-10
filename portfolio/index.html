@@ -38,6 +38,8 @@
       <p>
       The CapRock Customer Portal is a web application that I developed
       for CapRock Communications in 2006 and maintained until August, 2007.
+      The site was built with Ruby on Rails while the backend integrations
+      were written using Ruby and Perl.
       </p>
       
       <p>
@@ -70,7 +72,16 @@
         <a href="images/cprk_site_metrics.png" class="lightbox">
           <img src="images/cprk_site_metrics_thumb.png" />
         </a>
-        <br/>
+      </p>
+
+      <p>
+      The admin section of the site relies heavily on AJAX to filter large
+      lists of customers and users. It is also used to simplify the workflow
+      by not requiring the user to visit multiple pages to complete simple
+      tasks.
+      </p>
+
+      <p>
         <a href="images/cprk_admin_sites.png" class="lightbox">
           <img src="images/cprk_admin_sites_thumb.png" />
         </a>
@@ -79,6 +90,51 @@
         </a>
         <a href="images/cprk_admin_roles.png" class="lightbox">
           <img src="images/cprk_admin_roles_thumb.png" />
+        </a>
+      </p>
+
+			<h3>Magneto Administration</h3>
+
+      <p>
+      This is an administrative web application for an in-house clustered
+      database server. The application was built in Erlang with the
+      <a href="http://nitrogenproject.org">Nitrogen Framework</a> and makes
+      heavy use of AJAX. There are three main screens: the first shows
+      individual node status, the second shows an overview of the cluster
+      and the third allows for some limited interaction with the data.
+      </p>
+
+      <p>
+        <a href="images/mag_node.png" class="lightbox">
+          <img src="images/mag_node_thumb.png" />
+        </a>
+        <a href="images/mag_cluster.png" class="lightbox">
+          <img src="images/mag_cluster_thumb.png" />
+        </a>
+        <a href="images/mag_data.png" class="lightbox">
+          <img src="images/mag_data_thumb.png" />
+        </a>
+      </p>
+
+      <p>
+      The data screen allows the user to create a new object or to edit an
+      existing object. In this database system conflicting objects can be
+      created. In that case, the data screen shows all conflicting versions
+      alongside the final version that will be saved. Thanks to the heavy use
+      of AJAX the application feels more like a desktop application than a
+      traditional web site. There are very few page refreshes and the data
+      workflow doesn't bounce the user between different pages.
+      </p>
+
+      <p>
+        <a href="images/mag_data_new.png" class="lightbox">
+          <img src="images/mag_data_new_thumb.png" />
+        </a>
+        <a href="images/mag_data_obj.png" class="lightbox">
+          <img src="images/mag_data_obj_thumb.png" />
+        </a>
+        <a href="images/mag_data_conflict.png" class="lightbox">
+          <img src="images/mag_data_conflict_thumb.png" />
         </a>
       </p>
       
