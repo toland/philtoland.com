@@ -155,6 +155,10 @@ span.tiny {
   margin-top: 10px;
 }
 
+p.thumbs {
+	text-align: center;
+}
+
 #clear {
 	display: block;
 	clear: both;

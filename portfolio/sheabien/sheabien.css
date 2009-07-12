@@ -1,0 +1,90 @@
+body {
+  background-color: #340237;
+}
+
+#doc {
+  width: 782px;
+}
+
+#header {
+  background-image: url(images/Header_01.jpg);
+  height: 160px;
+}
+
+#navigation {
+  background-image: url(images/navbg.png);
+  background-repeat: repeat-x;
+  background-color: #FFF;
+  height: 26px;
+}
+
+#navigation a {
+  text-decoration: none;
+}
+
+#bumper {
+  /*background-image: url(images/bg2.jpg);*/
+  background-image: url(images/navbg.png);
+  background-repeat: repeat-x;
+  height: 2px;
+}
+
+#bd {
+  background-color: #FFF;
+  color: #455986;
+  margin-top: -12px;
+}
+
+#bd p {
+  padding: 10px 10px 10px 10px;
+  font-size: 77%;
+}
+
+#content {
+  border:  0;
+  border-right: 1px;
+  border-left: 1px;
+  border-style: solid;
+  border-color: #340237;
+}
+
+/* Monkey with Yahoo's layout */
+.yui-t1 #yui-main .yui-b { width: 639px; }
+.yui-t1 .yui-b { width: 142px; min-width: 142px; }
+.yui-ge .yui-u { width: 123px; }
+.yui-ge .first { width: 514px; }
+
+#news { 
+  background-color: #e2e3ea; 
+  padding: 10px;
+  height: 195px;
+  text-align: center;
+  font-size: 144%;
+  color: #5a4d6b;
+  font-variant: small-caps;
+}
+
+#testimonials {
+  text-align: center;
+  vertical-align: middle;
+  padding: 8px;
+}
+
+#testimonials h1 {
+  vertical-align: middle;
+}
+
+#footer {
+  color: #FFF;
+  text-align: center;
+}
+
+#footer p {
+  padding-top: 10px;
+  padding-bottom: 5px;
+}
+
+#footer a {
+  color: #FFF;
+  text-decoration: none;
+}
